@@ -49,3 +49,38 @@ main{
 	color: white;
 	padding: 3px;
 }
+.step-title{
+	margin : 15px 0 15px;
+}
+@media screen and (max-width: 768px){
+	main{
+		width: 100%;
+	}
+	.step-box{
+		width: 90%;
+		height: auto;
+		margin: 0 5% 20px 5%;
+		float: none;
+	}
+	.step-box:last-child{
+		margin: 0 auto;
+	}
+	.step-num{
+		font-size: 30px;
+	}
+	.step-image1{
+		height: 270px;
+	}
+	.step-image2{
+		height: 270px;
+	}
+	.step-image3{
+		height: 270px;
+	}
+	.step-title{
+		font-size: 35px;
+	}
+	p{
+		font-size: 29px;
+	}
+}
