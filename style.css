@@ -67,12 +67,22 @@ main{
 	width: 800px;
 	margin: 0 auto;
 	padding: 70px 0;
-
+}
+@media screen and (max-width:425px){
+	.main{
+		width: 100%;
+	}
 }
 .blog{
 	width: 540px;
 	float: left;
 	margin-right: 30px;
+}
+@media screen and (max-width: 425px){
+	.blog{
+		width: 100%;
+		float: none;
+	}
 }
 .blog-headline{
 	border-bottom: 8px solid #f7f7f7;
@@ -91,9 +101,19 @@ main{
 	height: 180px;
 	float: left;
 }
+@media screen and (max-width: 425px){
+	.blog-image{
+		float: none;
+	}
+}
 .blog-text{
 	float: left;
 	padding: 30px 0 0 25px;
+} 
+@media screen and (max-width: 425px){
+	.blog-image{
+		float: none;
+	}
 }
 .blog-text-headline{
 	padding-bottom: 15px;
@@ -127,6 +147,11 @@ main{
 .sidebar{
 	width: 230px;
 	float: left;
+}
+@media screen and (max-width: 425px){
+	.sidebar{
+		float: none;
+	}
 }
 .sidebar-headline,.instagram-headline,.categories-headline{
 	border-bottom: 8px solid #f7f7f7;
