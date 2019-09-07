@@ -17,8 +17,8 @@ main{
 	float: left;
 	position: relative;
 	padding: 10px;
-	border: 1px solid #eee;
 	margin-right: 30px;
+	border: 1px solid #eee;
 }
 .step-box:last-child{
 	margin-right: 0;
